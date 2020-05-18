@@ -29,7 +29,7 @@ import static java.lang.String.format;
 
 public class TokFm {
 
-	public static final String START_URL = "http://audycje.tokfm.pl/podcasts?offset=%d";
+	public static final String START_URL = "http://audycje.tokfm.pl/?offset=%d";
 
 	private static final String MATCH_PATTERN_OPTION = "m";
 	private static final String SKIP_EXISTING_OPTION = "s";
