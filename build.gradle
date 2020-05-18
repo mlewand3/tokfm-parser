@@ -9,8 +9,8 @@ apply plugin: 'maven-publish'
 
 sourceCompatibility = 1.8
 
-task wrapper(type: Wrapper) {
-	gradleVersion = '3.5'
+task wrapper2(type: Wrapper) {
+	gradleVersion = '5.4.1'
 }
 
 //create a single Jar with all dependencies
