@@ -14,7 +14,7 @@ public class HttpPodcastInfoService implements PodcastInfoService {
 
 	@Override
 	public List<PodcastData> getAll() {
-		String url = String.format("http://audycje.tokfm.pl/podcasts?offset=%d", 1);
+		String url = String.format("http://audycje.tokfm.pl/?offset=%d", 1);
 		String json = null;
 		try {
 			json = connect(url)
